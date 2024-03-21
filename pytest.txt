@@ -1,0 +1,29 @@
+================================================= test session starts =================================================
+platform win32 -- Python 3.11.5, pytest-8.1.1, pluggy-1.4.0
+rootdir: C:\Users\hecto\airflow
+plugins: anyio-4.0.0
+collected 1 item
+
+test_suma.py F                                                                                                   [100%]
+
+====================================================== FAILURES =======================================================
+__________________________________________________ test_suma_iguales __________________________________________________
+
+    @pytest.mark.test
+    def test_suma_iguales():
+>       assert suma_enteros(2, 2) == 7
+E       assert None == 7
+E        +  where None = suma_enteros(2, 2)
+
+test_suma.py:9: AssertionError
+------------------------------------------------ Captured stdout call -------------------------------------------------
+Se suma  2 + 2 que da 4
+================================================== warnings summary ===================================================
+test_suma.py:7
+  C:\Users\hecto\airflow\test_suma.py:7: PytestUnknownMarkWarning: Unknown pytest.mark.test - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.test
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=============================================== short test summary info ===============================================
+FAILED test_suma.py::test_suma_iguales - assert None == 7
+============================================ 1 failed, 1 warning in 0.19s =============================================
