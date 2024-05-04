@@ -3,8 +3,7 @@
 Descargar la imagen de docker de Apache Airflow:
 **docker pull apache/airflow:latest** desde cmd
 
-RECORDATORIO
-**Siempre que trabajemos, se debe crear un entorno virtual para instalar todas las librerías y bibliotecas que vamos a utilizar.**
+RECORDATORIO: **Siempre que trabajemos, se debe crear un entorno virtual para instalar todas las librerías y bibliotecas que vamos a utilizar.**
 
 Dentro de la Windows Powershell en modo administrador para que no den errores los scripts
 1.	Accedemos a **C:\Users\hecto\airflow**
