@@ -1,4 +1,4 @@
-# Codigo de Airflow y pytest
+# Código de Airflow y pytest
 
 Descargar la imagen de docker de Apache Airflow:
 **docker pull apache/airflow:latest** desde cmd
