@@ -47,3 +47,4 @@ Revisar la version de Airflow:
 - Usar Airflow de Docker hacer la prueba
 -	Cuando devuelva el test realizado success se debe subir a github en la rama main.
  
+Hector de la Cruz Baquero - [Linkdedin](https://www.linkedin.com/in/h%C3%A9ctor-de-la-cruz-baquero-ba193429b/) - [Webpage](https://hectorcrzbq.github.io/)
